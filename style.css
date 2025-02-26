@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/car.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(90%);
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav img {
+  width: 10%;
+  height: auto;
+  margin-right: 65%;
+  padding: 20px;
+
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 102, 55);
+}
+
+
+
+.hero-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Gilroy-Heavy', 'Poppins', sans-serif;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-weight: bolder;
+  padding-left: 200px;
+  color: rgb(240, 100, 50);
+  display: flex;
+  width: 50%;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text p {
+  color: rgb(240, 100, 50);
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.btn {
+  background-color: #070707;
+  /* Optional: Orange button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px orangered;
+  /* Orange shadow */
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  box-shadow: 0px 6px 12px orangered;
+  /* Stronger shadow on hover */
+}
+
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.service_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.card1 {
+  height: 90vh;
+  width: 30%;
+  background-image: url(./images/phone.jpg);
+  border-radius: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 p {
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.card1 span {
+  color: white;
+  font-size: 12px;
+  padding-bottom: 260px;
+  width: 120px;
+}
+
+.card1 button {
+  background-color: #070707;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px orangered;
+  transition: box-shadow 0.3s ease;
+}
+
+.card1 button:hover {
+  box-shadow: 0px 6px 12px orangered;
+  /* Stronger shadow on hover */
+}
+
+.card2 {
+  height: 90vh;
+  width: 30%;
+  background-image: url(./images/car.jpg);
+  border-radius: 50px;
+  background-size: 230%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.card2 p {
+  color: white;
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.card2 span {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 260px;
+  width: 120px;
+}
+
+.card2 button {
+  background-color: #070707;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px orangered;
+  transition: box-shadow 0.3s ease;
+}
+
+.card2 button:hover {
+  box-shadow: 0px 6px 12px orangered;
+  /* Stronger shadow on hover */
+}
+
+.card3 {
+  height: 90vh;
+  width: 30%;
+  background-image: url(./images/orangcar.jpg);
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3 p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.card3 span {
+  color: white;
+  font-size: 12px;
+  padding-bottom: 400px;
+  width: 120px;
+}
+
+.card3 button {
+  background-color: #070707;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px orangered;
+  transition: box-shadow 0.3s ease;
+}
+
+.card3 button:hover {
+  box-shadow: 0px 6px 12px orangered;
+  /* Stronger shadow on hover */
+}
+
+.picture img {
+  height: auto;
+  width: 100%;
+}
+
+.about-us {
+  background-image: url(./images/car.jpg);
+  background-size: cover;
+  background-attachment: initial;
+  width: 100%;
+  height: 150vh;
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+}
+
+.about_content {
+  padding-top: 100px;
+}
+
+.about-us h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.about-us p {
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  width: 70%;
+}
+
+
+.ride {
+  background-image: url(./images/woman1.jpg);
+  background-size: cover;
+  background-attachment: initial;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+}
+
+.content {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.ride h1 {
+  color: orangered;
+  font-weight: bold;
+  font-size: 80px;
+  width: 60%;
+}
+
+.ride p {
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.ride button {
+  background-color: #070707;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px orangered;
+  transition: box-shadow 0.3s ease;
+}
+
+.ride button:hover {
+  box-shadow: 0px 6px 12px orangered;
+  /* Stronger shadow on hover */
+}
+
+.luxury {
+  background-image: url(./images/man1.jpg);
+  background-size: cover;
+  background-attachment: initial;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 10px 30px;
+}
+
+.luxury h3 {
+  font-size: 80px;
+  color: white;
+  padding-top: 20%;
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+.luxury button {
+  background-color: #070707;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px orangered;
+  transition: box-shadow 0.3s ease;
+}
+
+.luxury button:hover {
+  box-shadow: 0px 6px 12px orangered;
+  /* Stronger shadow on hover */
+}
+
+.blog {
+  width: 100%;
+  height: 100vh;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+
+}
+
+h1 {
+  padding: 70px 50px;
+  font-size: 80px;
+
+}
+
+.box1 {
+  height: 60vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/cae2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: brightness(70%);
+}
+
+.box1 span {
+  color: rgb(250, 246, 246);
+  font-size: 50px;
+  width: 70%;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+.box2 {
+  height: 60vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/cae2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: brightness(70%);
+}
+
+.box2 span {
+  color: rgb(250, 246, 246);
+  font-size: 50px;
+  width: 70%;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+.scan {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/chardies.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* Add this to position the child element */
+}
+.scan span{
+  position: absolute; /* Position the image absolutely within the .scan container */
+  top: 25%; /* Adjust as needed */
+  left: 30%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the image */ /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
+.img1 {
+  position: absolute; /* Position the image absolutely within the .scan container */
+  top: 60%; /* Adjust as needed */
+  left: 30%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the image */
+  width: 300px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+  padding: 40px 20px;
+  background-color: #313131;
+  color: white;
+  display: flex;
+flex-direction: row;
+}
+footer img{
+  width: 20%;
+  height: auto;
+
+
+}
+.us{
+  margin: 0 150px;
+  padding-top: 50px;
+}
+.us h2{
+  margin-bottom: 20px;
+}
+
+.us ul {
+  display: flex;
+    flex-direction: column;
+  list-style: none;
+  gap: 30px;
+}
+
+.us ul li a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(255, 102, 55);
+}
+
+.get{
+  margin-top: 70px;
+  display: flex;
+}
+.get a{
+  text-decoration: underline;
+  color: rgb(255, 102, 55);
+  font-size: 22px;
+  cursor: pointer;
+}
